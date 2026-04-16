@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Elaborado</title>
+</head>
+<body>
+    <form>
+
+    <h1>Formulário</h1>
+    <fieldset>
+        <legend>Dados pessoais</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome"><br><br>
+        <label for="Endereço">Endereço:</label>
+        <input type="text" name="Endereço" id="Endereço"><br><br>
+        <label for="cidade">Cidade:</label>
+        <input type="text" name="cidade" id="cidade"><br><br>
+        
+        <label for="estados">Estado:</label>
+        <select name="estados" id="estados">
+            <option value="SP" selected>São Paulo</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="BA">Bahia</option>
+        </select><br>
+    </fieldset><br><br>
+
+    <fieldset>
+        <legend>Dados Profissionais</legend>
+        <p>Natureza do Cargo</p>
+
+        <input type="radio" name="select" id="01" value="gerencia">
+        <label for="select">Gerência</label>
+        <input type="radio" name="select" id="02" value="financeiro">
+        <label for="select">Financeiro</label>
+        <input type="radio" name="select" id="03" value="recepcao">
+        <label for="select">Recepção</label>
+        <input type="radio" name="select" id="03" value="administrativo">
+        <label for="select">Administrativo</label>
+        <input type="radio" name="select" id="03" value="juridico">
+        <label for="select">Jurídico</label><br>
+
+        <p>Área de interesse</p>
+        <input type="checkbox" name="select" id="01" value="Computação">
+        <label for="select">Computação</label>
+        <input type="checkbox" name="select" id="02" value="Biologia">
+        <label for="select">Biologia</label>
+        <input type="checkbox" name="select" id="03" value="Meio Ambiente">
+        <label for="select">Meio Ambiente</label>
+        <input type="checkbox" name="select" id="03" value="Engenharia">
+        <label for="select">Engenharia</label>
+        <input type="checkbox" name="select" id="03" value="História">
+        <label for="select">História</label><br><br>
+
+        <label for="mensagem">Mini-currículo: </label>
+        <textarea name="mensagem" id="mensagem" rows="5" cols="30"></textarea>
+        
+    </fieldset>
+
+    <br>
+    <input type="submit" name="enviar" id="enviar" value="Enviar">
+    <input type="reset" name="reset" id="reset" value="limpar"><br><br>
+    
+    </form>
+
+</body>
+</html>
